@@ -1,0 +1,17 @@
+Modality,Feature set,Design,AUC
+Methylome,top-100 DMPs,nested 10-fold CV (5 rep),0.956 +/- 0.006 (rep means)
+Methylome,"top-1,000 DMPs",nested 10-fold CV (5 rep),0.947 +/- 0.006 (rep means)
+Methylome,top-100 DMPs,conventional 10-fold CV (full-data selection),0.978
+Methylome,"top-1,000 DMPs",conventional 10-fold CV (full-data selection),0.969
+Transcriptome,"top-4,000 variable genes",nested 10-fold CV (3 rep),0.530 +/- 0.027
+Transcriptome,"top-1,000 variable genes",nested 10-fold CV (3 rep),0.514 +/- 0.045
+Transcriptome,"top-4,000 variable genes",conventional 10-fold CV,0.571
+Transcriptome,"top-1,000 variable genes",conventional 10-fold CV,0.558
+Transcriptome,top-100 label-supervised (in-fold),"nested selection, RF",0.64
+Transcriptome,"top-1,000 label-supervised (in-fold)","nested selection, RF",0.59
+Transcriptome,"top-4,000 label-supervised (in-fold)","nested selection, RF",0.60 +/- 0.02
+Transcriptome,top-50 variable genes (ensemble),conventional 10-fold CV (10 rep),0.519 +/- 0.037
+Transcriptome,six-gene consensus (ensemble),conventional 10-fold CV (10 rep),0.537 +/- 0.036
+Methylome,top-100 DMPs,pooled out-of-fold across reps (5 reps),0.956 (DeLong 95% CI 0.936-0.976)
+Transcriptome,"top-4,000 variable genes",pooled out-of-fold across reps (3 reps),0.524 (DeLong 95% CI 0.446-0.602; crosses 0.5)
+Methylome,top-100 DMPs,representative nested split; pooled OOF AUC 0.961; default 0.5 threshold,sens 0.93 / spec 0.88 / PPV 0.84 / NPV 0.95 / acc 0.90 (27/29 B, 38/43 A correct)
