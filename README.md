@@ -29,7 +29,8 @@ Raw data are not redistributed here; download from GEO. The 72-sample A/B labels
 - Windows 11 x64; R 4.6.0 (2026-04-24 ucrt); Rtools45; Bioconductor 3.23
 - Python 3 (for `chr22_ci_mb.py` and `md_to_docx.py`)
 - Key R packages: Seurat v5, SingleCellExperiment, DESeq2, edgeR, limma, minfi, methylKit, DMRcate, data.table, randomForest, pROC, caret, glmnet, xgboost, mclust, pheatmap, ComplexHeatmap, SCENIC/RcisTarget, CytoTRACE, Monocle 3, CellChat, DoubletFinder, scDblFinder, harmony, sctransform, clusterProfiler, missMethyl, survival, rms, shiny, NMF, fastshap
-- Full installed-package inventory: see `R_pkg_logs/phaseE_verify.csv` in the project repository (GitHub link, see below)
+- Full installed-package inventory: see `R_pkg_logs/phaseE_verify.csv` in the project repository ([GitHub repository](https://github.com/Nuo-nuo123/SP-EPN-reanalysis-code))
+
 
 **Note:** scripts contain absolute Windows paths (`D:/claude-study/...`); adjust the path variables at the top of each script before re-running. R is invoked via PowerShell (`powershell.exe -Command "& 'C:/Program Files/R/R-4.6.0/bin/Rscript.exe' 'script.R'"`).
 
@@ -63,4 +64,4 @@ Raw data are not redistributed here; download from GEO. The 72-sample A/B labels
 
 ## Contact
 
-[Corresponding author email - placeholder]
+yuxixi1052006@126.com
